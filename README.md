@@ -4,7 +4,7 @@
 
 ## 功能
 - 深色響應式首頁
-- 股票介紹：NVDA、AAPL
+- 股票介紹：NVDA、AAPL、TSLA
 - ETF 介紹：QQQ、VOO
 - 投資知識：ETF 是什麼、定期定額入門
 - ETF 雙檔比較：QQQ、QQQM、VOO、SPY（靜態教育資料）
@@ -28,3 +28,9 @@
 
 ## 免責聲明
 網站為教育用途，不提供即時股價或個人化投資建議。投資可能損失本金。
+
+## AGENTS.md 擴充示範：新增 TSLA
+- 依 `stocks/nvda.html` 模板建立 `stocks/tsla.html`，共用 `assets/style.css` 與 `assets/app.js`。
+- 在 `index.html` 的股票研究區新增 TSLA 入口。
+- 僅使用教育性企業介紹與風險說明，不填入未查證的即時行情。
+- 部署後請確認 TSLA 卡片、返回首頁、手機版排版及瀏覽器主控台無錯誤。
